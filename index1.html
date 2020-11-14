@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Page index.html</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * { box-sizing: border-box;}
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .header {
+            background-color: teal;
+            color: white;
+            text-align: center;
+            padding: 4%;
+        }
+        .navbar {
+            background-color: #141b24;
+            color: white;
+            overflow: hidden;
+            position: sticky;
+            position: -webkit-sticky;  
+            top: 0;          
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            float : left;
+            text-align: center;
+            display: block;
+            padding: 14px 20px;
+        }
+        .navbar span {
+            float: right;
+        }
+        .navbar a:hover {
+            background-color: #dddddd;
+            color: black;
+        }
+        .photoimg {
+            background-color: #aaaaaa;
+            width: 100%;
+            padding: 20px;
+        }
+        .row {
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            -ms-flex-flow: wrap;
+            flex-wrap: wrap;
+        }
+        .side {
+            -ms-flex: 30%;
+            flex: 30%;
+            background-color: #dddddd;
+            padding: 20px;
+        }
+        .main {
+            -ms-flex: 70%;
+            flex: 70%;
+            background-color: #dee8fa;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #aaabad;
+            text-align: center;
+            padding: 20px;
+        }
+        .column {
+            width: 30%;
+            margin: auto;
+        }
+        .card {
+            background-color: tomato;
+            margin: 20px;
+            text-align: center;
+            border-radius: 18px;
+            padding: 40px;
+        }
+        .fa {
+            font-size: 80px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1>My Website</h1>
+    <p>A <b>website</b> created by me.</p>
+</div>
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Product</a>
+    <a href="#">Company</a>
+    <a href="#">Band</a>
+    <a href="#">More</a>
+    <span><a href="#">Contact Us</a></span>
+</div>
+<div class="row">
+    <div class="side">
+        <h2>About Me</h2>
+        <h5>Photo of me:</h5>
+        <div class="photoimg" style="height: 200px;">Image</div>
+        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsam, aspernatur nemo repellendus corrupti a pariatur impedit quo ex eaque ea nihil totam repudiandae dolorum maiores quisquam? Blanditiis, nam architecto.</p>
+        <h3>More Text</h3>
+        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus soluta odio ea reprehenderit assumenda. Debitis perspiciatis molestiae voluptate exercitationem, culpa at sequi non inventore excepturi officia eos quaerat libero obcaecati?</p>
+        <div class="photoimg" style="height: 60px;">Image height 60px</div>
+        <div class="photoimg" style="height: 60px;">Image height 60px</div>
+        <div class="photoimg" style="height: 60px;">Image height 60px</div>
+    </div>
+    <div class="main">
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Nov 14,2020</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quidem animi labore corrupti magni consequuntur laborum, itaque, alias quibusdam debitis quae! Molestiae quo quisquam sit dolorum voluptatum corporis quaerat nam?</p>
+        <div class="photoimg">Image</div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti reprehenderit aspernatur nostrum maxime sint alias nisi exercitationem error non ex nemo et, totam pariatur, quis sequi officiis impedit ab vero.</p>
+
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <i class="fa fa-user"></i>
+                    <h3>User</h3>
+                    <p>This is the fa fa-user icon</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <i class="fa fa-envelope"></i>
+                    <h3>Mail</h3>
+                    <p>This is the fa fa-envelope</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <i class="fa fa-key"></i>
+                    <h3>Key</h3>
+                    <p>This is the fa fa-key</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <i class="fa fa-glass"></i>
+                    <h3>User</h3>
+                    <p>This is the fa fa-user icon</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <i class="fa fa-crop"></i>
+                    <h3>Mail</h3>
+                    <p>This is the fa fa-envelope</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <i class="fa fa-dropbox"></i>
+                    <h3>Key</h3>
+                    <p>This is the fa fa-key</p>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sit deleniti tempora hic quam ea eveniet voluptates optio reiciendis modi. Cumque ipsa, quis quasi fugiat sit dolore molestiae eius veritatis? lorem
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam velit aut, recusandae natus dolorum modi maxime in temporibus atque quibusdam debitis repellat doloremque. Sit eius autem culpa omnis qui quia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ea optio repudiandae dicta. Dolore quos sed placeat? Quisquam aut, ab aliquam vitae cum quos iste harum dignissimos quae laboriosam ratione.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, veritatis aperiam. Earum deleniti natus doloribus tempore eaque perferendis quia, adipisci cumque. Veritatis eligendi aperiam vel odio, velit quisquam deserunt dolore.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam soluta impedit perspiciatis nobis tempore fugiat libero accusamus delectus et adipisci amet nisi provident, qui consectetur error aliquam! Dignissimos, modi enim!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsam, odio rem nemo voluptatum placeat voluptatem excepturi vero itaque eum magni illum amet. Temporibus reiciendis debitis vero minus placeat dolore.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsa velit possimus iste. Adipisci laudantium praesentium incidunt, debitis, ipsam fugiat eius dignissimos dolore porro amet eveniet quam totam repudiandae impedit!
+        </p>
+
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <i class="fa fa-user"></i>
+                    <h3>User</h3>
+                    <p>This is the fa fa-user icon</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <i class="fa fa-envelope"></i>
+                    <h3>Mail</h3>
+                    <p>This is the fa fa-envelope</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <i class="fa fa-key"></i>
+                    <h3>Key</h3>
+                    <p>This is the fa fa-key</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <i class="fa fa-glass"></i>
+                    <h3>User</h3>
+                    <p>This is the fa fa-user icon</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <i class="fa fa-crop"></i>
+                    <h3>Mail</h3>
+                    <p>This is the fa fa-envelope</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <i class="fa fa-dropbox"></i>
+                    <h3>Key</h3>
+                    <p>This is the fa fa-key</p>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nihil sapiente nesciunt quia modi ipsa ab hic rerum, voluptatum, expedita exercitationem tenetur, labore earum natus quaerat perspiciatis esse explicabo libero!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, praesentium vitae hic amet qui a tenetur minus quis odio fuga fugiat ipsum perferendis nostrum quos aspernatur iusto eos ut. Repellendus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, reprehenderit, deserunt delectus perspiciatis repudiandae vel asperiores sit officia fugiat, atque recusandae suscipit amet dolor quos reiciendis necessitatibus laboriosam libero! Odio!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae sunt consequatur optio fuga nemo nihil qui possimus deleniti aperiam minus, nisi non nesciunt est vel, expedita quae quos esse dolore!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus officiis obcaecati mollitia reiciendis non esse quasi voluptatum iusto deleniti. Inventore molestiae ipsam provident magnam molestias obcaecati quam accusantium quaerat modi.
+        </p>
+    </div>
+</div>
+
+<div class="footer">
+    <h2>Footer</h2>
+</div>
+</body>
+</html>
